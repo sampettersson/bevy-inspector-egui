@@ -21,21 +21,21 @@ highlight_changes = []
 
 [dependencies]
 bevy-inspector-egui-derive = { version = "0.23.0", path = "../bevy-inspector-egui-derive" }
-bevy_app = { version = "0.13" }
-bevy_asset = { version = "0.13" }
-bevy_core = { version = "0.13" }
-bevy_ecs = { version = "0.13" }
-bevy_hierarchy = { version = "0.13" }
-bevy_log = { version = "0.13" }
-bevy_math = { version = "0.13" }
-bevy_reflect = { version = "0.13" }
-bevy_time = { version = "0.13" }
-bevy_utils = { version = "0.13" }
-bevy_window = { version = "0.13" }
+bevy_app = { version = "0.14.0-dev" }
+bevy_asset = { version = "0.14.0-dev" }
+bevy_core = { version = "0.14.0-dev" }
+bevy_ecs = { version = "0.14.0-dev" }
+bevy_hierarchy = { version = "0.14.0-dev" }
+bevy_log = { version = "0.14.0-dev" }
+bevy_math = { version = "0.14.0-dev" }
+bevy_reflect = { version = "0.14.0-dev" }
+bevy_time = { version = "0.14.0-dev" }
+bevy_utils = { version = "0.14.0-dev" }
+bevy_window = { version = "0.14.0-dev3" }
 
-bevy_core_pipeline = { version = "0.13" }
-bevy_pbr = { version = "0.13", optional = true }
-bevy_render = { version = "0.13" }
+bevy_core_pipeline = { version = "0.14.0-dev" }
+bevy_pbr = { version = "0.14.0-dev", optional = true }
+bevy_render = { version = "0.14.0-dev" }
 
 egui = "0.26"
 bevy_egui = "0.25"
@@ -46,7 +46,7 @@ pretty-type-name = "1.0"
 smallvec = "1.10"
 
 [dev-dependencies]
-bevy = { version = "0.13", default-features = false, features = [
+bevy = { version = "0.14.0-dev", default-features = false, features = [
     "x11",
     "bevy_winit",
     "bevy_pbr",
